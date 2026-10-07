@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rajeshveeramuthu.github.io/Thiruvarasu-Maligai-Textiles-T.Palur/sitemap.xml
+Sitemap: https://thiruvarasu-maligai-textails-tpalur.netlify.app/sitemap.xml
