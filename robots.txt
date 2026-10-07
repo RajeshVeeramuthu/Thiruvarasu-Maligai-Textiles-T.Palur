@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajeshveeramuthu.github.io/Thiruvarasu-Maligai-Textiles-T.Palur/sitemap.xml
