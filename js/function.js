@@ -3,7 +3,7 @@ const WHATSAPP_NUMBER = "919787202630";
 const translations = {
   en: {
     metaDescription:
-      "Browse groceries, clothing, textiles and imitation jewellery at Thiruvarasu Maligai & Paapathi Textiles, T. Palur. Open 24 hours09:00am to 09:00pm Sun-Sat.",
+      "Visit Thiruvarasu Maligai & Paapathi Textiles in T. Palur for groceries, clothing, textiles and imitation jewellery. Open daily, 9 am–9 pm.",
     topbar: "Open 09:00am to 09:00pm Sun-Sat · Here for your everyday needs",
     callTop: "Call us: +91 97872 02630",
     mainNavigation: "Main navigation",
@@ -17,7 +17,8 @@ const translations = {
     navFind: "Find us",
     navVisit: "Visit our store",
     heroEyebrow: "Your neighbourhood store in T. Palur",
-    heroTitle: "Everyday essentials.<br><em>All in one place.</em>",
+    heroTitle:
+      "Thiruvarasu Maligai in T. Palur.<br><em>Everyday essentials, all in one place.</em>",
     heroDescription:
       "Groceries for home, colourful clothing and textiles, imitation jewellery and accessories—all at your local T. Palur store.",
     serviceGroceries: "Groceries",
@@ -25,7 +26,7 @@ const translations = {
     serviceJewellery: "Jewellery & accessories",
     shopNow: "Explore products",
     directions: "Get directions",
-    openAroundClock: "Open 24 hours",
+    openAroundClock: "Open 09:00am to 09:00pm | Sunday to Saturday",
     dropAnytime: "Drop in whenever you need us",
     storefrontAlt: "Thiruvarasu Maligai store on the main road",
     neighbourhood: "Right in your neighbourhood",
@@ -34,7 +35,7 @@ const translations = {
     benefitGroceries: "Everyday groceries",
     benefitClothing: "Clothing & textiles",
     benefitJewellery: "Jewellery & accessories",
-    benefitHours: "Open 24 hours",
+    benefitHours: "Open daily, 09:00am to 09:00pm",
     groceryEyebrow: "Stock up for home",
     groceryTitle: "Good things for <em>everyday.</em>",
     groceryIntro:
@@ -74,6 +75,24 @@ const translations = {
       "From everyday groceries to clothing, textiles, imitation jewellery and accessories, find a little bit of everything in one friendly local store.",
     aboutText:
       "Located opposite Selliyamman Kovil on Karaikurichi Main Road, our neighbourhood store is open 09:00am to 09:00pm Sun-Sat. Browse the collections online and ask us about today's in-store selection.",
+    faqEyebrow: "Local store information",
+    faqTitle: "Visiting Thiruvarasu Maligai <em>&amp; Paapathi Textiles</em>",
+    faqIntro:
+      "Quick answers about our T. Palur store, products and opening hours.",
+    faqLocationQuestion:
+      "Where is Thiruvarasu Maligai & Paapathi Textiles?",
+    faqLocationAnswer:
+      "We are opposite Selliyamman Kovil on Karaikurichi Main Road, T. Palur, Tamil Nadu 612904.",
+    faqHoursQuestion: "What are the store opening hours?",
+    faqHoursAnswer:
+      "The store is open every day, Sunday to Saturday, from 9:00 am to 9:00 pm.",
+    faqProductsQuestion: "What can I find at the T. Palur store?",
+    faqProductsAnswer:
+      "Browse everyday groceries, clothing and textiles, imitation jewellery and accessories. Visit the relevant category page to see the online catalogue.",
+    faqStockQuestion:
+      "Are the online prices and products always in stock?",
+    faqStockAnswer:
+      "The online catalogue is illustrative. Please call the store to confirm current availability and prices before visiting or ordering.",
     comeSayHello: "Come by and say hello",
     visitEyebrow: "We'd love to see you",
     visitTitle: "Find us in<br><em>the heart of T. Palur.</em>",
@@ -82,7 +101,7 @@ const translations = {
     addressTitle: "Come on in",
     address:
       "Selliyamman Kovil opposite,<br>Karaikurichi Main Road,<br>T. Palur, Tamil Nadu 612904",
-    hoursTitle: "Open 24 hours",
+    hoursTitle: "Open daily, 09:00am to 09:00pm",
     hoursText: "We're here whenever you need us.",
     phoneTitle: "Give us a call",
     mapTitle: "Map showing the location of Thiruvarasu Maligai in T. Palur",
@@ -148,8 +167,8 @@ const translations = {
   },
   ta: {
     metaDescription:
-      "திருவரசு மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ், தா.பழூர் மளிகைப் பொருட்கள், ஆடைகள், துணிகள் மற்றும் செயற்கை நகைகளைப் பாருங்கள். காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும்.",
-    topbar: "காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும் · உங்கள் அன்றாடத் தேவைகளுக்கு",
+      "தா.பழூரில் திருவரசு மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ் கடையில் மளிகை, ஆடைகள், துணிகள் மற்றும் செயற்கை நகைகளைப் பாருங்கள். தினமும் காலை 9–இரவு 9 மணி வரை திறந்திருக்கும்.",
+    topbar: "காலை 9 மணி முதல் இரவு 9 மணி வரை,வாரத்தின் 7 நாட்களும் திறந்திருக்கும் · உங்கள் அன்றாடத் தேவைகளுக்கு",
     callTop: "அழைக்கவும்: +91 97872 02630",
     mainNavigation: "முதன்மை வழிசெலுத்தல்",
     brandSubtitle: "மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ்",
@@ -162,7 +181,8 @@ const translations = {
     navFind: "வழியைக் காண",
     navVisit: "கடைக்கு வருக",
     heroEyebrow: "தா.பழூர் உங்கள் உள்ளூர் கடை",
-    heroTitle: "அன்றாடத் தேவைகள்.<br><em>அனைத்தும் ஒரே இடத்தில்.</em>",
+    heroTitle:
+      "தா.பழூர் திருவரசு மளிகை.<br><em>அன்றாடத் தேவைகள் அனைத்தும் ஒரே இடத்தில்.</em>",
     heroDescription:
       "வீட்டுக்குத் தேவையான மளிகைப் பொருட்கள், வண்ணமயமான ஆடைகள் மற்றும் துணிகள், செயற்கை நகைகள், அணிகலன்கள்—அனைத்தும் உங்கள் தா.பழூர் கடையில்.",
     serviceGroceries: "மளிகைப் பொருட்கள்",
@@ -219,12 +239,30 @@ const translations = {
     aboutLead:
       "அன்றாட மளிகையிலிருந்து ஆடைகள், துணிகள், செயற்கை நகைகள், அணிகலன்கள் வரை—அனைத்தும் நட்பான உள்ளூர் கடையில்.",
     aboutText:
-      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவிலுக்கு எதிரில், காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும் எங்கள் கடையில் வாங்கலாம். இணையத்தில் பொருட்களைப் பார்த்து, கடையில் இன்று கிடைக்கும் பொருட்களைக் கேளுங்கள்.",
+      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவிலுக்கு எதிரில், ஞாயிறு முதல் சனி வரை காலை 9 மணி முதல் இரவு 9 மணி வரை திறந்திருக்கும் எங்கள் கடையில் வாங்கலாம். இணையத்தில் பொருட்களைப் பார்த்து, கடையில் இன்று கிடைக்கும் பொருட்களைக் கேளுங்கள்.",
+    faqEyebrow: "உள்ளூர் கடைத் தகவல்",
+    faqTitle: "திருவரசு மளிகை <em>&amp; பாப்பாத்தி டெக்ஸ்டைல்ஸ்</em>",
+    faqIntro:
+      "தா.பழூர் கடை, பொருட்கள் மற்றும் திறந்திருக்கும் நேரம் குறித்த பதில்கள்.",
+    faqLocationQuestion:
+      "திருவரசு மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ் எங்கே உள்ளது?",
+    faqLocationAnswer:
+      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவிலுக்கு எதிரில், தா.பழூர், தமிழ்நாடு 612904 என்ற முகவரியில் இருக்கிறோம்.",
+    faqHoursQuestion: "கடை திறந்திருக்கும் நேரம் என்ன?",
+    faqHoursAnswer:
+      "ஞாயிறு முதல் சனி வரை தினமும் காலை 9 மணி முதல் இரவு 9 மணி வரை கடை திறந்திருக்கும்.",
+    faqProductsQuestion: "தா.பழூர் கடையில் என்னென்ன பொருட்கள் கிடைக்கும்?",
+    faqProductsAnswer:
+      "அன்றாட மளிகைப் பொருட்கள், ஆடைகள் மற்றும் துணிகள், செயற்கை நகைகள், அணிகலன்களைப் பாருங்கள். இணையப் பட்டியலைக் காண அந்தந்த வகைப் பக்கத்தைத் திறக்கவும்.",
+    faqStockQuestion:
+      "இணையத்தில் உள்ள பொருட்களும் விலைகளும் எப்போதும் இருப்பில் உள்ளனவா?",
+    faqStockAnswer:
+      "இணையப் பட்டியல் விளக்கத்திற்காக மட்டுமே. வருவதற்கு அல்லது ஆர்டர் செய்வதற்கு முன் இருப்பு மற்றும் தற்போதைய விலையைத் தொலைபேசியில் உறுதிப்படுத்தவும்.",
     comeSayHello: "கடைக்கு வந்து சந்தியுங்கள்",
     visitEyebrow: "உங்களை அன்புடன் வரவேற்கிறோம்",
     visitTitle: "டி.பாலூரில்<br><em>எங்களைக் கண்டுபிடியுங்கள்.</em>",
     visitIntro:
-      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவில் எதிரில். 24 மணி நேரமும் எப்போது வேண்டுமானாலும் வாருங்கள்.",
+      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவில் எதிரில். ஞாயிறு முதல் சனி வரை காலை 9 மணி முதல் இரவு 9 மணி வரை திறந்திருக்கும்.",
     addressTitle: "கடைக்கு வாருங்கள்",
     address:
       "செல்லியம்மன் கோவில் எதிரில்,<br>காரைக்குறிச்சி மெயின் ரோடு,<br>தா.பழூர், தமிழ்நாடு 612904",
@@ -440,6 +478,12 @@ function setLanguage(language) {
     language === "ta"
       ? "திருவரசு மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ் | தா.பழூர்"
       : "Thiruvarasu Maligai & Paapathi Textiles | T. Palur";
+  document.querySelector('meta[property="og:title"]').content =
+    document.title;
+  document.querySelector('meta[property="og:description"]').content =
+    document.querySelector('meta[name="description"]').content;
+  document.querySelector('meta[property="og:locale"]').content =
+    language === "ta" ? "ta_IN" : "en_IN";
   document.querySelector("#languageToggle").textContent =
     t("languageToggleText");
   document
