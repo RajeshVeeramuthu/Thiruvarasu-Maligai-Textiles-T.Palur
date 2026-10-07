@@ -2,15 +2,19 @@ const categoryPageCopy = {
   groceries: {
     en: {
       title: "Everyday groceries",
-      intro: "Discover pantry staples and cooking essentials for your home.",
+      intro:
+        "Find pantry staples and cooking essentials at Thiruvarasu Maligai, your local grocery store in T. Palur.",
       label: "Groceries",
-      description: "Browse groceries at Thiruvarasu Maligai, T. Palur.",
+      pageTitle: "Groceries in T. Palur | Thiruvarasu Maligai",
+      description:
+        "Shop everyday groceries at Thiruvarasu Maligai in T. Palur. Browse pantry essentials and confirm current stock and prices with the store.",
     },
     ta: {
       title: "அன்றாட மளிகைப் பொருட்கள்",
       intro:
-        "உங்கள் வீட்டிற்குத் தேவையான சமையல் மற்றும் மளிகைப் பொருட்களைப் பாருங்கள்.",
+        "தா.பழூர் திருவரசு மளிகையில் வீட்டிற்குத் தேவையான சமையல் மற்றும் மளிகைப் பொருட்களைப் பாருங்கள்.",
       label: "மளிகைப் பொருட்கள்",
+      pageTitle: "தா.பழூர் மளிகைப் பொருட்கள் | திருவரசு மளிகை",
       description:
         "திருவரசு மளிகை, தா.பழூரில் கிடைக்கும் மளிகைப் பொருட்களைப் பாருங்கள்.",
     },
@@ -19,16 +23,18 @@ const categoryPageCopy = {
     en: {
       title: "Clothing & textiles",
       intro:
-        "Browse comfortable everyday wear and textiles for every occasion.",
+        "Browse clothing and textiles at Paapathi Textiles in T. Palur, from comfortable everyday wear to traditional styles.",
       label: "Textiles",
+      pageTitle: "Clothing & Textiles in T. Palur | Paapathi Textiles",
       description:
-        "Browse clothing and textiles at Paapathi Textiles, T. Palur.",
+        "Explore clothing and textiles at Paapathi Textiles in T. Palur, from everyday wear to traditional styles. Contact the store to confirm availability.",
     },
     ta: {
       title: "ஆடைகள் & துணிகள்",
       intro:
-        "அன்றாட ஆடைகள் மற்றும் அனைத்து நிகழ்வுகளுக்குமான துணிகளைப் பாருங்கள்.",
+        "தா.பழூர் பாப்பாத்தி டெக்ஸ்டைல்ஸில் அன்றாட ஆடைகள் மற்றும் பாரம்பரிய உடைகளைப் பாருங்கள்.",
       label: "ஆடைகள் & துணிகள்",
+      pageTitle: "தா.பழூர் ஆடைகள் & துணிகள் | பாப்பாத்தி டெக்ஸ்டைல்ஸ்",
       description:
         "பாப்பாத்தி டெக்ஸ்டைல்ஸ், தா.பழூரில் கிடைக்கும் ஆடைகள் மற்றும் துணிகளைப் பாருங்கள்.",
     },
@@ -37,16 +43,18 @@ const categoryPageCopy = {
     en: {
       title: "Jewellery & accessories",
       intro:
-        "Explore traditional-style imitation jewellery and colourful accessories.",
+        "Explore traditional-style imitation jewellery and colourful accessories at Thiruvarasu Maligai in T. Palur.",
       label: "Jewellery",
+      pageTitle: "Imitation Jewellery in T. Palur | Thiruvarasu Maligai",
       description:
-        "Browse jewellery and accessories at Thiruvarasu Maligai, T. Palur.",
+        "Browse imitation jewellery and accessories at Thiruvarasu Maligai in T. Palur. Check the online catalogue and contact the store to confirm availability.",
     },
     ta: {
       title: "நகைகள் & அணிகலன்கள்",
       intro:
-        "பாரம்பரிய வடிவிலான செயற்கை நகைகள் மற்றும் வண்ணமயமான அணிகலன்களைப் பாருங்கள்.",
+        "தா.பழூர் திருவரசு மளிகையில் பாரம்பரிய வடிவிலான செயற்கை நகைகள் மற்றும் வண்ணமயமான அணிகலன்களைப் பாருங்கள்.",
       label: "நகைகள்",
+      pageTitle: "தா.பழூர் செயற்கை நகைகள் | திருவரசு மளிகை",
       description:
         "திருவரசு மளிகை, தா.பழூரில் கிடைக்கும் நகைகள் மற்றும் அணிகலன்களைப் பாருங்கள்.",
     },
@@ -91,7 +99,7 @@ function categoryText(key) {
       groceries: "Groceries",
       textiles: "Textiles",
       jewels: "Jewellery",
-      topbar: "Open 24 hours · Here for your everyday needs",
+      topbar: "Open daily, 9:00 am–9:00 pm · Here for your everyday needs",
       mainNavigation: "Main navigation",
       menu: "Toggle navigation",
       language: "தமிழ்",
@@ -148,7 +156,8 @@ function categoryText(key) {
       groceries: "மளிகைப் பொருட்கள்",
       textiles: "ஆடைகள் & துணிகள்",
       jewels: "நகைகள்",
-      topbar: "24 மணி நேரமும் திறந்திருக்கும் · உங்கள் அன்றாடத் தேவைகளுக்கு",
+      topbar:
+        "தினமும் காலை 9 மணி முதல் இரவு 9 மணி வரை திறந்திருக்கும் · உங்கள் அன்றாடத் தேவைகளுக்கு",
       mainNavigation: "முதன்மை வழிசெலுத்தல்",
       menu: "வழிசெலுத்தலை மாற்றவும்",
       language: "English",
@@ -605,8 +614,13 @@ function applyCategoryLanguage(language) {
   categoryLanguage = language;
   const copy = categoryPageCopy[pageCategory][language];
   document.documentElement.lang = language;
-  document.title = `${copy.title} | Thiruvarasu Maligai`;
+  document.title = copy.pageTitle;
   document.querySelector('meta[name="description"]').content = copy.description;
+  document.querySelector('meta[property="og:title"]').content = copy.pageTitle;
+  document.querySelector('meta[property="og:description"]').content =
+    copy.description;
+  document.querySelector('meta[property="og:locale"]').content =
+    language === "ta" ? "ta_IN" : "en_IN";
   document.querySelector("#categoryTitle").textContent = copy.title;
   document.querySelector("#categoryIntro").textContent = copy.intro;
   document.querySelector("#categoryEyebrow").textContent = copy.label;
