@@ -3,8 +3,8 @@ const WHATSAPP_NUMBER = "919787202630";
 const translations = {
   en: {
     metaDescription:
-      "Browse groceries, clothing, textiles and imitation jewellery at Thiruvarasu Maligai & Paapathi Textiles, T. Palur. Open 24 hours.",
-    topbar: "Open 24 hours · Here for your everyday needs",
+      "Browse groceries, clothing, textiles and imitation jewellery at Thiruvarasu Maligai & Paapathi Textiles, T. Palur. Open 24 hours09:00am to 09:00pm Sun-Sat.",
+    topbar: "Open 09:00am to 09:00pm Sun-Sat · Here for your everyday needs",
     callTop: "Call us: +91 97872 02630",
     mainNavigation: "Main navigation",
     brandSubtitle: "Maligai & Paapathi Textiles",
@@ -73,12 +73,12 @@ const translations = {
     aboutLead:
       "From everyday groceries to clothing, textiles, imitation jewellery and accessories, find a little bit of everything in one friendly local store.",
     aboutText:
-      "Located opposite Selliyamman Kovil on Karaikurichi Main Road, our neighbourhood store is open 24 hours. Browse the collections online and ask us about today's in-store selection.",
+      "Located opposite Selliyamman Kovil on Karaikurichi Main Road, our neighbourhood store is open 09:00am to 09:00pm Sun-Sat. Browse the collections online and ask us about today's in-store selection.",
     comeSayHello: "Come by and say hello",
     visitEyebrow: "We'd love to see you",
     visitTitle: "Find us in<br><em>the heart of T. Palur.</em>",
     visitIntro:
-      "Opposite Selliyamman Kovil on Karaikurichi Main Road. Stop in any time—we're open 24 hours.",
+      "Opposite Selliyamman Kovil on Karaikurichi Main Road. Stop in any time—we're 09:00am to 09:00pm Sun-Sat.",
     addressTitle: "Come on in",
     address:
       "Selliyamman Kovil opposite,<br>Karaikurichi Main Road,<br>T. Palur, Tamil Nadu 612904",
@@ -148,8 +148,8 @@ const translations = {
   },
   ta: {
     metaDescription:
-      "திருவரசு மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ், தா.பழூர் மளிகைப் பொருட்கள், ஆடைகள், துணிகள் மற்றும் செயற்கை நகைகளைப் பாருங்கள். 24 மணி நேரமும் திறந்திருக்கும்.",
-    topbar: "24 மணி நேரமும் திறந்திருக்கும் · உங்கள் அன்றாடத் தேவைகளுக்கு",
+      "திருவரசு மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ், தா.பழூர் மளிகைப் பொருட்கள், ஆடைகள், துணிகள் மற்றும் செயற்கை நகைகளைப் பாருங்கள். காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும்.",
+    topbar: "காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும் · உங்கள் அன்றாடத் தேவைகளுக்கு",
     callTop: "அழைக்கவும்: +91 97872 02630",
     mainNavigation: "முதன்மை வழிசெலுத்தல்",
     brandSubtitle: "மளிகை & பாப்பாத்தி டெக்ஸ்டைல்ஸ்",
@@ -170,7 +170,7 @@ const translations = {
     serviceJewellery: "நகைகள் & அணிகலன்கள்",
     shopNow: "பொருட்களைப் பாருங்கள்",
     directions: "வழியைப் பெறுங்கள்",
-    openAroundClock: "24 மணி நேரமும் திறந்திருக்கும்",
+    openAroundClock: "காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும்",
     dropAnytime: "உங்களுக்கு வசதியான நேரத்தில் வாருங்கள்",
     storefrontAlt: "முதன்மைச் சாலையில் உள்ள திருவரசு மளிகைக் கடை",
     neighbourhood: "உங்கள் அருகிலேயே",
@@ -179,7 +179,7 @@ const translations = {
     benefitGroceries: "அன்றாட மளிகைப் பொருட்கள்",
     benefitClothing: "ஆடைகள் & துணிகள்",
     benefitJewellery: "நகைகள் & அணிகலன்கள்",
-    benefitHours: "24 மணி நேரமும் திறந்திருக்கும்",
+    benefitHours: "காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும்",
     groceryEyebrow: "உங்கள் வீட்டுக்குத் தேவையானவை",
     groceryTitle: "அன்றாடத்திற்கான <em>அத்தியாவசியங்கள்.</em>",
     groceryIntro:
@@ -219,7 +219,7 @@ const translations = {
     aboutLead:
       "அன்றாட மளிகையிலிருந்து ஆடைகள், துணிகள், செயற்கை நகைகள், அணிகலன்கள் வரை—அனைத்தும் நட்பான உள்ளூர் கடையில்.",
     aboutText:
-      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவிலுக்கு எதிரில், 24 மணி நேரமும் திறந்திருக்கும் எங்கள் கடையில் வாங்கலாம். இணையத்தில் பொருட்களைப் பார்த்து, கடையில் இன்று கிடைக்கும் பொருட்களைக் கேளுங்கள்.",
+      "காரைக்குறிச்சி மெயின் ரோட்டில் செல்லியம்மன் கோவிலுக்கு எதிரில், காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும் எங்கள் கடையில் வாங்கலாம். இணையத்தில் பொருட்களைப் பார்த்து, கடையில் இன்று கிடைக்கும் பொருட்களைக் கேளுங்கள்.",
     comeSayHello: "கடைக்கு வந்து சந்தியுங்கள்",
     visitEyebrow: "உங்களை அன்புடன் வரவேற்கிறோம்",
     visitTitle: "டி.பாலூரில்<br><em>எங்களைக் கண்டுபிடியுங்கள்.</em>",
@@ -228,7 +228,7 @@ const translations = {
     addressTitle: "கடைக்கு வாருங்கள்",
     address:
       "செல்லியம்மன் கோவில் எதிரில்,<br>காரைக்குறிச்சி மெயின் ரோடு,<br>தா.பழூர், தமிழ்நாடு 612904",
-    hoursTitle: "24 மணி நேரமும் திறந்திருக்கும்",
+    hoursTitle: "காலை 9 மணி முதல் இரவு 9 மணி வரை  திறந்திருக்கும்",
     hoursText: "உங்களுக்குத் தேவைப்படும் நேரத்தில் நாங்கள் இங்கே இருக்கிறோம்.",
     phoneTitle: "தொலைபேசியில் அழைக்கவும்",
     mapTitle: "டி.பாலூரில் திருவரசு மளிகையின் இடத்தைக் காட்டும் வரைபடம்",
