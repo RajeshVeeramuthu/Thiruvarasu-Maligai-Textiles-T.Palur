@@ -1,0 +1,50 @@
+[
+  {
+    "id": "temple-necklace",
+    "category": "jewellery",
+    "name": { "en": "Temple-style necklace", "ta": "கோவில் வடிவ நெக்லஸ்" },
+    "detail": {
+      "en": "Traditional-style imitation jewellery",
+      "ta": "பாரம்பரிய வடிவிலான செயற்கை நகை"
+    },
+    "price": 850,
+    "image": "traditional-necklace.jpg",
+    "alt": {
+      "en": "Traditional-style necklace displayed in store",
+      "ta": "கடையில் காட்சிக்கு வைக்கப்பட்டுள்ள பாரம்பரிய நெக்லஸ்"
+    }
+  },
+  {
+    "id": "bridal-jewellery-set",
+    "category": "jewellery",
+    "name": {
+      "en": "Bridal-style jewellery set",
+      "ta": "மணப்பெண் பாணி நகைத் தொகுப்பு"
+    },
+    "detail": {
+      "en": "Necklace set · Imitation jewellery",
+      "ta": "நெக்லஸ் தொகுப்பு · செயற்கை நகைகள்"
+    },
+    "price": 1250,
+    "image": "bridal-jewellery.jpg",
+    "alt": {
+      "en": "Bridal-style imitation jewellery set",
+      "ta": "மணப்பெண் பாணி செயற்கை நகைத் தொகுப்பு"
+    }
+  },
+  {
+    "id": "bangles-set",
+    "category": "jewellery",
+    "name": { "en": "Colourful bangle set", "ta": "வண்ணமயமான வளையல் தொகுப்பு" },
+    "detail": {
+      "en": "Traditional-style accessories · Assorted colours",
+      "ta": "பாரம்பரிய வடிவ அணிகலன்கள் · பல வண்ணங்களில்"
+    },
+    "price": 299,
+    "image": "bangles-shelf.jpg",
+    "alt": {
+      "en": "Bangles and accessories stocked in store",
+      "ta": "கடையில் உள்ள வளையல்கள் மற்றும் அணிகலன்கள்"
+    }
+  }
+]

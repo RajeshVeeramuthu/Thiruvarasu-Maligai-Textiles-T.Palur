@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse groceries at Thiruvarasu Maligai, T. Palur.">
+    <meta name="theme-color" content="#173c32">
+    <title>Groceries | Thiruvarasu Maligai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/desing.css">
+</head>
+<body class="category-page" data-category="groceries" data-image-folder="groceries">
+    <div class="topbar"><div class="container d-flex justify-content-between gap-2">
+        <span id="categoryTopbar">Open 24 hours · Here for your everyday needs</span>
+        <a class="topbar-phone" href="tel:+919787202630">+91 97872 02630</a>
+    </div></div>
+    <nav class="navbar navbar-expand-lg site-nav" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand brand-lockup" href="./index.html" aria-label="Thiruvarasu Maligai home">
+                <span class="brand-mark" aria-hidden="true">T</span>
+                <span class="brand-copy"><strong>Thiruvarasu</strong><small>Maligai &amp; Paapathi Textiles</small></span>
+            </a>
+            <button class="navbar-toggler" id="categoryMenuToggle" type="button" data-bs-toggle="collapse" data-bs-target="#categoryNavigation" aria-controls="categoryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="categoryNavigation">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" id="categoryHomeLink" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" data-category-nav="groceries" href="./groceries.html">Groceries</a></li>
+                    <li class="nav-item"><a class="nav-link" data-category-nav="textiles" href="./textiles.html">Textiles</a></li>
+                    <li class="nav-item"><a class="nav-link" data-category-nav="jewels" href="./jewels.html">Jewellery</a></li>
+                    <li class="nav-item language-switch"><button class="language-button" id="languageToggle" type="button" lang="ta" aria-label="View in Tamil">தமிழ்</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="category-hero">
+            <div class="container">
+                <p class="eyebrow"><span></span><span id="categoryEyebrow">Groceries</span></p>
+                <h1 id="categoryTitle">Everyday groceries</h1>
+                <p id="categoryIntro">Discover pantry staples and cooking essentials for your home.</p>
+                <a class="text-link" id="categoryBackLink" href="./index.html#categories">Back to all categories <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+        <section class="section-padding catalog-section">
+            <div class="container">
+                <div class="product-grid" id="categoryProducts" aria-live="polite" aria-busy="true"></div>
+                <p class="price-disclaimer" id="categoryDisclaimer">Catalogue and prices are illustrative. Please confirm availability and current prices with the store.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="container py-4">
+        <a class="brand-lockup footer-brand" href="./index.html"><span class="brand-mark" aria-hidden="true">T</span><span class="brand-copy"><strong>Thiruvarasu</strong><small>Maligai &amp; Paapathi Textiles</small></span></a>
+        <p class="footer-note mt-3">© <span id="currentYear"></span> Thiruvarasu Maligai &amp; Paapathi Textiles · T. Palur</p>
+    </div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./js/catalog-skeleton.js"></script>
+    <script src="./js/category-page.js"></script>
+    <script>document.querySelector("#currentYear").textContent = new Date().getFullYear();</script>
+</body>
+</html>

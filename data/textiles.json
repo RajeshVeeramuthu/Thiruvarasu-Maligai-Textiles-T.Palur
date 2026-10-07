@@ -1,0 +1,105 @@
+[
+  {
+    "id": "cotton-saree",
+    "category": "clothing",
+    "name": { "en": "Printed cotton saree", "ta": "அச்சிட்ட பருத்திப் புடவை" },
+    "detail": {
+      "en": "Soft-feel fabric · Assorted colours",
+      "ta": "மென்மையான துணி · பல வண்ணங்களில்"
+    },
+    "price": 799,
+    "image": "PrintCottonSaree.jpg",
+    "alt": {
+      "en": "Colourful cotton saree stocked in store",
+      "ta": "கடையில் வைக்கப்பட்டுள்ள வண்ணமயமான பருத்திப் புடவை"
+    },
+    "sizes": ["Free size"]
+  },
+  {
+    "id": "dress-material",
+    "category": "clothing",
+    "name": { "en": "Dress material set", "ta": "சுடிதார் துணித் தொகுப்பு" },
+    "detail": {
+      "en": "Matching set · Colours may vary",
+      "ta": "பொருந்தும் துணித் தொகுப்பு · வண்ணங்கள் மாறலாம்"
+    },
+    "price": 599,
+    "image": "clothing-shelves.jpg",
+    "alt": {
+      "en": "Clothing and dress materials available in store",
+      "ta": "கடையில் கிடைக்கும் ஆடைகள் மற்றும் சுடிதார் துணிகள்"
+    },
+    "sizes": ["Free size"]
+  },
+  {
+    "id": "mens-veshti",
+    "category": "clothing",
+    "name": { "en": "Men's cotton veshti", "ta": "ஆண்கள் பருத்தி வேட்டி" },
+    "detail": {
+      "en": "Traditional wear · Soft cotton",
+      "ta": "பாரம்பரிய உடை · மென்மையான பருத்தி"
+    },
+    "price": 350,
+    "image": "ramrajcottonVesti.webp",
+    "alt": {
+      "en": "Men's traditional cotton clothing displayed in store",
+      "ta": "கடையில் காட்சிப்படுத்தப்பட்டுள்ள ஆண்களுக்கான பாரம்பரிய பருத்தி உடை"
+    },
+    "sizes": ["8 muzham", "9 muzham"]
+  },
+  {
+    "id": "check-shirt",
+    "category": "clothing",
+    "name": { "en": "Men's check shirt", "ta": "ஆண்கள் கட்டம் போட்ட சட்டை" },
+    "detail": {
+      "en": "Casual style · Select your size",
+      "ta": "சாதாரண வடிவம் · உங்களுடைய அளவைத் தேர்ந்தெடுக்கவும்"
+    },
+    "price": 599,
+    "image": "menswear.jpg",
+    "alt": {
+      "en": "Checked men's shirts stocked in store",
+      "ta": "கடையில் வைக்கப்பட்டுள்ள கட்டம் போட்ட ஆண்கள் சட்டைகள்"
+    },
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "priceVariesBySize": true,
+    "sizePrices": { "S": 599, "M": 629, "L": 659, "XL": 689, "XXL": 719 }
+  },
+  {
+    "id": "cotton-nightwear",
+    "category": "clothing",
+    "name": {
+      "en": "Printed cotton nightwear",
+      "ta": "அச்சிட்ட பருத்தி இரவு உடை"
+    },
+    "detail": {
+      "en": "Easy everyday comfort · Select size",
+      "ta": "தினசரி வசதியான உடை · அளவைத் தேர்ந்தெடுக்கவும்"
+    },
+    "price": 425,
+    "image": "innerwear.jpg",
+    "alt": {
+      "en": "Nightwear and innerwear stocked in store",
+      "ta": "கடையில் வைக்கப்பட்டுள்ள இரவு உடைகள் மற்றும் உள்ளாடைகள்"
+    },
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "priceVariesBySize": true,
+    "sizePrices": { "S": 425, "M": 446, "L": 468, "XL": 489, "XXL": 510 }
+  },
+  {
+    "id": "cotton-blouse",
+    "category": "clothing",
+    "name": { "en": "Printed blouse fabric", "ta": "அச்சிட்ட ரவிக்கைத் துணி" },
+    "detail": {
+      "en": "Coordinates for your saree · Assorted patterns",
+      "ta": "புடவைக்கு ஏற்ற வடிவங்கள் · பல டிசைன்களில்"
+    },
+    "price": 249,
+    "image": "textiles-shelf.jpg",
+    "alt": {
+      "en": "Clothing and fabrics displayed in store",
+      "ta": "கடையில் காட்சிப்படுத்தப்பட்டுள்ள ஆடைகள் மற்றும் துணிகள்"
+    },
+    "sizes": ["Free size"]
+  }
+]

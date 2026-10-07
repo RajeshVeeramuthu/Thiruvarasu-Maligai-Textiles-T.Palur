@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173c32">
+    <meta name="description" data-i18n-content="metaDescription"
+        content="Browse groceries, clothing, textiles and imitation jewellery at Thiruvarasu Maligai & Paapathi Textiles, T. Palur. Open 09:00am to 09:00pm.">
+    <title>Thiruvarasu Maligai &amp; Paapathi Textiles | T. Palur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/desing.css">
+</head>
+
+<body>
+    <div id="siteHeader"></div>
+
+    <main>
+        <section class="hero-section" id="home">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5 hero-copy">
+                        <p class="eyebrow"><span></span><span data-i18n="heroEyebrow">Your neighbourhood store in T.
+                                Palur</span></p>
+                        <h1 data-i18n="heroTitle">Everyday essentials.<br><em>All in one place.</em></h1>
+                        <p class="hero-description" data-i18n="heroDescription">Groceries for home, colourful clothing
+                            and textiles, imitation jewellery and accessories—all at your local T. Palur store.</p>
+                        <div class="hero-service-pills">
+                            <a href="./groceries.html" data-i18n="serviceGroceries">Groceries</a>
+                            <a href="./textiles.html" data-i18n="serviceClothing">Clothing &amp; textiles</a>
+                            <a href="./jewels.html" data-i18n="serviceJewellery">Jewellery &amp; accessories</a>
+                        </div>
+                        <div class="d-flex flex-wrap gap-3 hero-actions">
+                            <a class="btn btn-primary-custom" href="#groceries"><span data-i18n="shopNow">Explore
+                                    products</span> <span aria-hidden="true">↓</span></a>
+                            <a class="btn btn-outline-custom" href="#visit"><span data-i18n="directions">Get
+                                    directions</span> <span aria-hidden="true">↗</span></a>
+                        </div>
+                        <div class="hero-hours">
+                            <span class="hours-icon" aria-hidden="true">12</span>
+                            <span><strong data-i18n="openAroundClock">Open 09:00am to 09:00pm | Sunday to
+                                    Saturday</strong><small data-i18n="dropAnytime">Drop in whenever you need
+                                    us</small></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="hero-image-wrap">
+                            <img class="hero-image" src="./src/imgs/storefront.jpg"
+                                alt="Thiruvarasu Maligai store on the main road" data-i18n-alt="storefrontAlt">
+                            <div class="hero-image-caption">
+                                <span class="caption-pin" aria-hidden="true">⌖</span>
+                                <span><strong data-i18n="neighbourhood">Right in your neighbourhood</strong><small
+                                        data-i18n="storeLandmark">Opposite Selliyamman Kovil, T. Palur</small></span>
+                            </div>
+                            <span class="hero-stamp"
+                                aria-hidden="true"><span>உங்கள்</span><strong>அன்பான<br>கடை</strong><i>✳</i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits-strip" id="categories" aria-label="Store highlights" data-i18n-aria="storeHighlights">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-6 col-lg-3 benefit-item"><span class="benefit-icon" aria-hidden="true">✳</span><span
+                            data-i18n="benefitGroceries">Everyday groceries</span></div>
+                    <div class="col-6 col-lg-3 benefit-item"><span class="benefit-icon" aria-hidden="true">◇</span><span
+                            data-i18n="benefitClothing">Clothing &amp; textiles</span>
+                    </div>
+                    <div class="col-6 col-lg-3 benefit-item"><span class="benefit-icon" aria-hidden="true">✧</span><span
+                            data-i18n="benefitJewellery">Jewellery &amp;
+                            accessories</span></div>
+                    <div class="col-6 col-lg-3 benefit-item"><span class="benefit-icon" aria-hidden="true">◷</span><span
+                            data-i18n="benefitHours">Open 09:00am to 09:00pm</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding catalog-section grocery-section" id="groceries">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="eyebrow justify-content-center"><span></span><span data-i18n="groceryEyebrow">Stock up
+                            for home</span><span></span></p>
+                    <h2 data-i18n="groceryTitle">Good things for <em>everyday.</em></h2>
+                    <a class="text-link category-page-link" href="./groceries.html" data-i18n="viewGroceries">View all
+                        groceries <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="product-grid" id="groceriesProducts" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="section-padding catalog-section clothing-section" id="clothing">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="eyebrow justify-content-center"><span></span><span data-i18n="clothingEyebrow">Made for
+                            every day and every celebration</span><span></span></p>
+                    <h2 data-i18n="clothingTitle">Wear it your <em>way.</em></h2>
+                    <a class="text-link category-page-link" href="./textiles.html" data-i18n="viewTextiles">View all
+                        clothing &amp; textiles <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="product-grid" id="clothingProducts" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="section-padding catalog-section jewellery-section" id="jewellery">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="eyebrow justify-content-center"><span></span><span data-i18n="jewelleryEyebrow">A lovely
+                            finishing touch</span><span></span></p>
+                    <h2 data-i18n="jewelleryTitle">A little <em>extra sparkle.</em></h2>
+                    <a class="text-link category-page-link" href="./jewels.html" data-i18n="viewJewellery">View all
+                        jewellery &amp; accessories <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="product-grid" id="jewelleryProducts" aria-live="polite"></div>
+            </div>
+        </section>
+        <p class="price-disclaimer catalog-disclaimer" data-i18n="priceDisclaimer">The catalogue and prices shown are
+            illustrative
+            and may differ from current in-store stock. Please confirm availability and prices with the store before
+            ordering.</p>
+
+        <section class="offers-section section-padding" id="offers">
+            <div class="container">
+                <article class="offer-card" id="specialOffer" aria-busy="true">
+                    <div class="offer-decoration" aria-hidden="true">✳</div>
+                    <div>
+                        <p class="eyebrow"><span></span><span data-i18n="offerEyebrow">Today at the store</span></p>
+                        <h2 data-i18n="offerTitle">A little something <em>for your basket.</em></h2>
+                        <p id="offerText" aria-live="polite" data-i18n="offerLoading">Loading today's offer…</p>
+                        <p class="offer-date" id="offerDate" hidden></p>
+                        <p class="offer-fineprint" data-i18n="offerDisclaimer">Offer shown for reference only. Please
+                            confirm today's offer and eligibility with the store.</p>
+                    </div>
+                    <div class="offer-badge" id="offerBadge" hidden><strong id="offerPercent"></strong><span
+                            data-i18n="offGroceries">OFF GROCERIES</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-image-grid">
+                            <img class="about-image-main" src="./src/product_imgs/groceries/shop-interior.jpg"
+                                alt="Inside Thiruvarasu Maligai, with groceries and goods for the whole family"
+                                data-i18n-alt="shopInteriorAlt" loading="lazy">
+                            <img class="about-image-detail" src="./src/product_imgs/textiles/clothing-shelves.jpg"
+                                alt="Colourful clothing and textiles stocked in the store" data-i18n-alt="clothingAlt"
+                                loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about-copy">
+                        <p class="eyebrow"><span></span><span data-i18n="aboutEyebrow">A neighbourhood favourite</span>
+                        </p>
+                        <h2 data-i18n="aboutTitle">Good things are<br><em>closer than you think.</em></h2>
+                        <p class="about-lead" data-i18n="aboutLead">From everyday groceries to clothing, textiles,
+                            imitation jewellery and accessories, find a little bit of everything in one friendly local
+                            store.</p>
+                        <p data-i18n="aboutText">Located opposite Selliyamman Kovil on Karaikurichi Main Road, our
+                            neighbourhood store is open 09:00am to 09:00pm. Browse the collections online and ask us
+                            about today's
+                            in-store selection.</p>
+                        <a class="text-link" href="#visit"><span data-i18n="comeSayHello">Come by and say
+                                hello</span><span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="visit-section section-padding" id="visit">
+            <div class="container">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-5">
+                        <div class="visit-copy">
+                            <p class="eyebrow"><span></span><span data-i18n="visitEyebrow">We'd love to see you</span>
+                            </p>
+                            <h2 data-i18n="visitTitle">Find us in<br><em>the heart of T. Palur.</em></h2>
+                            <p data-i18n="visitIntro">Opposite Selliyamman Kovil on Karaikurichi Main Road. Stop in any
+                                time—we're open 09:00am to 09:00pm.</p>
+                            <div class="visit-detail">
+                                <span class="detail-icon" aria-hidden="true">⌖</span>
+                                <div><strong data-i18n="addressTitle">Come on in</strong>
+                                    <p data-i18n="address">Selliyamman Kovil opposite,<br>Karaikurichi Main Road,<br>T.
+                                        Palur, Tamil Nadu 612904</p>
+                                </div>
+                            </div>
+                            <div class="visit-detail">
+                                <span class="detail-icon" aria-hidden="true">◷</span>
+                                <div><strong data-i18n="hoursTitle">Open 09:00am to 09:00pm</strong>
+                                    <p data-i18n="hoursText">We're here whenever you need us.</p>
+                                </div>
+                            </div>
+                            <div class="visit-detail">
+                                <span class="detail-icon" aria-hidden="true">☎</span>
+                                <div><strong data-i18n="phoneTitle">Give us a call</strong>
+                                    <p><a href="tel:+919787202630">+91 97872 02630</a><br><a
+                                            href="tel:+916374768383">+91 63747 68383</a></p>
+                                </div>
+                            </div>
+                            <a class="btn btn-primary-custom directions-button"
+                                href="https://www.google.com/maps/search/?api=1&amp;query=39Q8%2BQ2%20T.%20Palur%2C%20Tamil%20Nadu"
+                                target="_blank" rel="noopener noreferrer"><span data-i18n="directions">Get
+                                    directions</span> <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="map-frame">
+                            <iframe title="Map showing the location of Thiruvarasu Maligai in T. Palur"
+                                data-i18n-title="mapTitle"
+                                src="https://maps.google.com/maps?q=39Q8%2BQ2%20T.%20Palur%2C%20Tamil%20Nadu&amp;output=embed"
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="siteFooter"></div>
+    <div id="sharedSkeleton" hidden></div>
+
+    <div class="order-bar" id="orderBar" hidden>
+        <button class="order-cart-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#orderDrawer">
+            <span class="order-cart-icon" aria-hidden="true">▣</span>
+            <span><strong><span data-i18n="viewOrder">View order</span> · <span id="orderCount">0</span></strong>
+                <small id="orderBarTotal">₹0</small></span>
+        </button>
+        <button class="btn btn-whatsapp" id="quickWhatsappOrder" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#orderDrawer"><span data-i18n="completeOrderDetails">Enter delivery details</span>
+            <span aria-hidden="true">→</span></button>
+    </div>
+
+    <div class="offcanvas offcanvas-end order-drawer" tabindex="-1" id="orderDrawer" aria-labelledby="orderDrawerTitle">
+        <div class="offcanvas-header">
+            <div>
+                <p class="eyebrow mb-2"><span></span><span data-i18n="yourSelections">Your selections</span></p>
+                <h2 class="offcanvas-title" id="orderDrawerTitle" data-i18n="orderSummary">Order summary</h2>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+                data-i18n-aria="close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="orderItems" aria-live="polite"></div>
+            <p class="empty-order" id="emptyOrder" data-i18n="emptyOrder">Your order is empty. Browse the collections to
+                add something.</p>
+            <div class="order-totals" id="orderTotals" hidden>
+                <div class="order-grand-total"><strong data-i18n="estimatedTotal">Estimated total</strong><strong
+                        id="orderGrandTotal">₹0</strong></div>
+                <p class="order-price-note" data-i18n="priceNote">Listed prices are illustrative. The store will confirm
+                    availability and final prices on WhatsApp.</p>
+                <form class="customer-details-form" id="customerDetailsForm" novalidate>
+                    <h3 data-i18n="deliveryDetailsTitle">Delivery details</h3>
+                    <p class="customer-details-note" data-i18n="allFieldsRequired">All fields are required to continue
+                        to WhatsApp.</p>
+                    <div class="customer-fields-grid">
+                        <div class="customer-field customer-field-wide">
+                            <label for="customerName" data-i18n="customerNameLabel">Full name</label>
+                            <input class="form-control" id="customerName" name="customerName" type="text"
+                                autocomplete="name" maxlength="80" required>
+                        </div>
+                        <div class="customer-field customer-field-wide">
+                            <label for="customerMobile" data-i18n="customerMobileLabel">Mobile number</label>
+                            <input class="form-control" id="customerMobile" name="customerMobile" type="tel"
+                                autocomplete="tel-national" inputmode="numeric" pattern="[6-9][0-9]{9}" maxlength="10"
+                                required>
+                            <small data-i18n="mobileHelp">Enter a 10-digit Indian mobile number.</small>
+                        </div>
+                        <div class="customer-field customer-field-wide">
+                            <label for="customerEmail" data-i18n="customerEmailLabel">Email address</label>
+                            <input class="form-control" id="customerEmail" name="email" type="email"
+                                autocomplete="email" maxlength="254" required>
+                        </div>
+                        <div class="customer-field">
+                            <label for="addressDoorNo" data-i18n="doorNoLabel">Door number</label>
+                            <input class="form-control" id="addressDoorNo" name="doorNo" type="text"
+                                autocomplete="address-line1" maxlength="40" required>
+                        </div>
+                        <div class="customer-field">
+                            <label for="addressStreet" data-i18n="streetLabel">Street name</label>
+                            <input class="form-control" id="addressStreet" name="street" type="text"
+                                autocomplete="address-line2" maxlength="100" required>
+                        </div>
+                        <div class="customer-field">
+                            <label for="addressPlace" data-i18n="placeLabel">Place / town</label>
+                            <input class="form-control" id="addressPlace" name="place" type="text"
+                                autocomplete="address-level2" maxlength="80" required>
+                        </div>
+                        <div class="customer-field">
+                            <label for="addressLandmark" data-i18n="landmarkLabel">Landmark</label>
+                            <input class="form-control" id="addressLandmark" name="landmark" type="text" maxlength="100"
+                                required>
+                        </div>
+                    </div>
+                    <p class="customer-form-error" id="customerFormError" role="alert" hidden
+                        data-i18n="customerFormError">Please complete all required fields with a valid email and mobile
+                        number.</p>
+                    <button class="btn btn-whatsapp btn-whatsapp-full" id="drawerWhatsappOrder" type="submit" disabled>
+                        <span aria-hidden="true">◉</span>
+                        <span data-i18n="sendOrder">Send order on WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" aria-live="polite" aria-atomic="true">
+        <div class="toast order-toast border-0" id="orderToast" role="status">
+            <div class="d-flex align-items-center">
+                <div class="toast-body"><span data-i18n="addedToOrder">Added to your order.</span> <span
+                        id="toastProductName"></span></div>
+                <button type="button" class="btn-close me-3" data-bs-dismiss="toast" aria-label="Close"
+                    data-i18n-aria="close"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./js/component-loader.js"></script>
+</body>
+
+</html>

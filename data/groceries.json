@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ponni-rice",
+    "category": "groceries",
+    "name": { "en": "Nandi gold rice", "ta": "நந்தி கோல்ட் அரிசி" },
+    "detail": {
+      "en": "25 kg · Everyday family staple",
+      "ta": "25 கிலோ · அன்றாட உணவுக்கான அரிசி"
+    },
+    "price": 1120,
+    "image": "NandiGold25kg.webp",
+    "alt": {
+      "en": "Rice sacks stocked in the store",
+      "ta": "கடையில் அடுக்கி வைக்கப்பட்டுள்ள அரிசி மூட்டைகள்"
+    }
+  },
+  {
+    "id": "sunflower-oil",
+    "category": "groceries",
+    "name": {
+      "en": "Sunflower cooking oil",
+      "ta": "சூரியகாந்தி சமையல் எண்ணெய்"
+    },
+    "detail": {
+      "en": "1 L · Cooking essential",
+      "ta": "1 லிட்டர் · சமையலுக்குத் தேவை"
+    },
+    "price": 155,
+    "image": "sunflowerOil1l.webp",
+    "alt": {
+      "en": "Packaged cooking oil available in store",
+      "ta": "கடையில் கிடைக்கும் பொட்டல சமையல் எண்ணெய்"
+    }
+  },
+  {
+    "id": "toor-dal",
+    "category": "groceries",
+    "name": { "en": "Toor dal", "ta": "துவரம் பருப்பு" },
+    "detail": {
+      "en": "1 kg · Pantry favourite",
+      "ta": "1 கிலோ · சமையலறை அத்தியாவசியம்"
+    },
+    "price": 150,
+    "image": "toordal.webp",
+    "alt": {
+      "en": "Toor dal stocked on the store shelves",
+      "ta": "கடையின் அலமாரிகளில் வைக்கப்பட்டுள்ள துவரம் பருப்பு"
+    }
+  },
+  {
+    "id": "sugar",
+    "category": "groceries",
+    "name": { "en": "White sugar", "ta": "சர்க்கரை" },
+    "detail": {
+      "en": "1 kg · Everyday pantry staple",
+      "ta": "1 கிலோ · அன்றாட சமையலறைத் தேவை"
+    },
+    "price": 48,
+    "image": "white_sugar1kg.webp",
+    "alt": {
+      "en": "White sugar available in the shop",
+      "ta": "கடையில் கிடைக்கும் வெள்ளைச் சர்க்கரை"
+    }
+  }
+]
